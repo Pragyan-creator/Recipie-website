@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recipe Website</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                background:url('images/boo.png') no-repeat center center/cover;
+            }
+            #navbar{ 
+                margin:0;
+                padding:0;
+                background:#e2b0c3;
+                border-radius:5px;
+                box-sizing:border-box;
+                overflow:auto;
+                margin-bottom:15px;
+            }
+            #navbar li{
+                list-style:none;
+                float:left;
+            }
+            #navbar li a{
+                display:block;
+                padding:15px 20px;
+                text-decoration:none;
+                color:#181515;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-style:bold;
+                
+            }
+            #navbar li a:hover{
+                background:rgb(104, 77, 77);
+                color:rgb(194, 158, 158);
+                border-radius:5px;
+            }
+            #card{
+                text-align:center;
+                padding:50px;
+
+            }
+            #welcomestyle{
+                font-style: italic;
+                font-size: 100px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                color:rgb(136, 17, 67);
+            }
+            .para{
+                font-style:italic;
+                font-size:25px;
+                font-family:'Times New Roman', Times, serif;
+                color:rgb(82, 27, 27)
+            }
+            p a{
+                text-decoration:none;
+                color:#0e0101;
+                font-style:bold;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+
+            }
+            p a:hover{
+                color:#791320;
+                border-radius:2px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul id="navbar">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+        </ul>
+        <div id="card">
+        <h1 id="welcomestyle">Welcome</h1>
+        <br>
+        <p class="para">Find and share everyday cooking inspiration. Discover recipes, cooking videos and how to's based on the food you love</p>
+        <p class="para">Recently we have added how to prepare <a href="mango-milkshake.html">Mango Milkshake</a> and <a href="strawberry-milkshake.html">Strawberry Milkshake</a> at home</p>
+        </div>
+    </body>
+</html>
